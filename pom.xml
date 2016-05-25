@@ -89,6 +89,7 @@
                     <encoding>${project.build.sourceEncoding}</encoding>
                     <source>${jdkVersion}</source>
                     <target>${jdkVersion}</target>
+                    <showDeprecation>true</showDeprecation>
                 </configuration>
             </plugin>
 
@@ -187,7 +188,7 @@
                     </execution>
                 </executions>
             </plugin>
-            
+
             <plugin>
               <groupId>org.eluder.coveralls</groupId>
               <artifactId>coveralls-maven-plugin</artifactId>
